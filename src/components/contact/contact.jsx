@@ -17,7 +17,7 @@ function Contact() {
     e.preventDefault();
 
     try {
-      const result = await emailjs.sendForm('service_koa76xk', 'template_bu9oikh', form.current, 'FU9LrsL9mlINbXU--6xrM');
+      const result = await emailjs.sendForm('service_koa76xk', 'template_bu9oikh', form.current, '9juj5s-b1XYjZ34OC');
       console.log(result.text);
       e.target.reset();
       alert('Email Sent!');

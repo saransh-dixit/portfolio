@@ -16,21 +16,21 @@ function Skills() {
                 <img src={UIDesign} alt="UIDesign" className="skillBarImg" />
                 <div className="skillBarText">
                     <h2>UI/UX Design</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla excepturi porro ipsum est ad maxime.</p>
+                    <p>Passionate about crafting intuitive and visually compelling UI/UX designs for seamless user experiences.</p>
                 </div>
             </div>
             <div className="skillBar">
                 <img src={WebDesign} alt="WebDesign" className="skillBarImg" />
                 <div className="skillBarText">
                     <h2>Web Design</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor autem tempore quia architecto voluptatem! Tenetur?</p>
+                    <p>Creating visually stunning and functional web designs that elevate user experiences and captivate audiences.</p>
                 </div>
             </div>
             <div className="skillBar">
                 <img src={AppDesign} alt="AppDesign" className="skillBarImg" />
                 <div className="skillBarText">
                     <h2>App Design</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam quas modi hic dolores ipsum nam.</p>
+                    <p>Crafting innovative and user-centric app designs for a seamless and engaging digital experience.</p>
                 </div>
             </div>
         </div>

@@ -47,9 +47,10 @@ function Contact() {
           Please fill out the form below to discuss any work opportunities.
         </span>
         <form action="" className="contactForm" ref={form} onSubmit={sendEmail}>
-          <input type="text" className="name" placeholder='Your Name' name='your_name' required />
+        <input type="text" className="name" placeholder='Your Name' name='from_name' required />
           <input type="email" className="email" placeholder='Your Email' name='your_email' required />
-          <textarea className='msg' name="message" rows="5" placeholder='Your Message' required></textarea>
+          {/* New input field for sender's name */}
+          <textarea className='msg' name="message" rows="5" placeholder='Your message' required></textarea>
           <button type='submit' className="submitBtn">Submit</button>
           <div className="links">
             <img src={facebook_icon} alt="facebook_icon" className="link" />
